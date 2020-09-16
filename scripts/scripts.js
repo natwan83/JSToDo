@@ -18,7 +18,7 @@ function getData() {
     
     }).join(" ")
     
-    //console.log(htmlStuff)
+    console.log(htmlStuff)
     document.querySelector('tbody').innerHTML = htmlStuff
 
 })
